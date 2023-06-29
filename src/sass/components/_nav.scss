@@ -1,0 +1,171 @@
+.nav {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	///////
+	height: 44px;
+	width: 100%;
+	///////
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	///////
+	box-shadow: 0px -4px 8px rgba(15, 15, 15, 0.123);
+
+	&__logo {
+		// // width: 73px;
+		// aspect-ratio: 7/1;
+		///////
+		border: 2px solid $black;
+		padding: 1px 5px;
+		font-size: 10px;
+
+		&-p {
+			font-weight: 800;
+			font-size: 1.1em;
+		}
+	}
+	&__options {
+		&-ul {
+			display: none;
+		}
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-rows: 1fr;
+		column-gap: 2px;
+		justify-items: center;
+		align-items: center;
+		///////
+		font-size: 20px;
+	}
+	&__language {
+		display: flex;
+		align-items: center;
+		///////
+		cursor: pointer;
+		&-p {
+			font-size: 16px;
+			font-family: $sulphur;
+			font-weight: 600;
+			letter-spacing: 1px;
+			text-transform: uppercase;
+			///////
+			padding-left: 3px;
+		}
+	}
+	&__dark-mode {
+		cursor: pointer;
+	}
+	&__hamburger {
+		cursor: pointer;
+	}
+	@media (orientation: landscape) {
+		bottom: auto;
+		top: 0;
+		box-shadow: 0px 3px 4px rgba(15, 15, 15, 0.068);
+	}
+	@media (min-width: 480px) and (orientation: portrait) {
+		height: 60px;
+		width: 100%;
+		&__logo {
+			border: 2.5px solid $black;
+			font-size: 13px;
+		}
+		&__options {
+			column-gap: 10px;
+			font-size: 25px;
+		}
+		&__language {
+			&-p {
+				font-size: 20px;
+				padding-left: 6px;
+			}
+		}
+	}
+	@media (min-width: 800px) and (orientation: landscape) {
+		height: 60px;
+		width: 100%;
+		&__logo {
+			border: 2.5px solid $black;
+			font-size: 13px;
+		}
+		&__options {
+			column-gap: 10px;
+			font-size: 25px;
+		}
+		&__language {
+			&-p {
+				font-size: 20px;
+				padding-left: 6px;
+			}
+		}
+	}
+	@media (min-width: 1080px) {
+		&__hamburger {
+			display: none;
+		}
+		&__options {
+			display: flex;
+			gap: 2.6vw;
+			&-ul {
+				display: flex;
+				gap: 3.4vw;
+				margin-right: 4vw;
+				a {
+					font-family: $sulphur;
+					font-weight: 400;
+					font-size: 22px;
+					color: $black;
+					text-decoration: none;
+				}
+			}
+		}
+	}
+	@media (min-height: 1080px) and (orientation: portrait) {
+		bottom: auto;
+		top: 0;
+		box-shadow: 0px 3px 4px rgba(15, 15, 15, 0.068);
+		&__hamburger {
+			display: none;
+		}
+		&__options {
+			display: flex;
+			gap: 2.6vw;
+			&-ul {
+				display: flex;
+				gap: 3.4vw;
+				margin-right: 4vw;
+				a {
+					font-family: $sulphur;
+					font-weight: 400;
+					font-size: 22px;
+					color: $black;
+					text-decoration: none;
+				}
+			}
+		}
+	}
+	@media (min-width: 1280px) {
+		&__logo {
+			border: 3px solid $black;
+			font-size: 13px;
+		}
+		&__options {
+			column-gap: 22px;
+			font-size: 18px;
+			&-ul {
+				gap: 3vw;
+				margin-right: 3.4vw;
+			}
+			a {
+				font-size: 18px;
+			}
+		}
+		&__language {
+			&-p {
+				font-size: 17px;
+				padding-left: 6px;
+			}
+		}
+	}
+}
