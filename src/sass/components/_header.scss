@@ -456,6 +456,40 @@
 			}
 		}
 	}
-	@media (min-height: 1280px) and (orientation: portrait) {
+	@media (min-height: 1280px) and (orientation: portrait) and (min-width: 660px) {
+		&__content {
+			row-gap: 1vh;
+		}
+		&__typography {
+			&-h3 {
+				font-size: calc(0.8vw + 0.9rem);
+				letter-spacing: 1px;
+			}
+			&-h2 {
+				font-size: calc(1.6vw + 0.8rem);
+				line-height: 121%;
+			}
+			&-h1 {
+				font-size: calc(1.2vw + 2rem);
+			}
+		}
+		&__photo {
+			width: 60%;
+		}
+		&__buttons {
+			grid-template-columns: 2fr 2fr auto;
+			column-gap: 1vw;
+			.button {
+				font-size: clamp(18px, 1.4vw + 0.6rem, 22px);
+			}
+			&-linkedin {
+				font-size: 40px;
+				width: 40px;
+			}
+			&-github {
+				font-size: 40px;
+				width: 40px;
+			}
+		}
 	}
 }
