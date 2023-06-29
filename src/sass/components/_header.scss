@@ -492,4 +492,50 @@
 			}
 		}
 	}
+	@media (min-width: 1500px){
+		column-gap: 4vw;
+		&__typography {
+			&-h3 {
+				font-size: calc(0.4vw + 0.6rem);
+				letter-spacing: 1px;
+			}
+			&-h2 {
+				font-size: calc(0.9vw + 0.6rem);
+				line-height: 121%;
+				margin-top: 10px;
+			}
+			&-h1 {
+				font-size: calc(1.3vw + 1.5rem);
+			}
+		}
+		&__buttons {
+			grid-template-columns: 0.6fr 0.6fr auto 4vw;
+			column-gap: 1vw;
+
+			.button {
+				// font-size: clamp(16px, 1vw + 0.25rem, 20px);
+				font-size: 15px;
+			}
+			&-social-media {
+				gap: 1vw;
+			}
+			&-linkedin {
+				font-size: 34px;
+				margin-left: 8px;
+			}
+			&-github {
+				font-size: 34px;
+			}
+			&-scroll {
+				left: 16%;
+				&-svg {
+					width: 50px;
+				}
+				&-p {
+					margin-left: 12px;
+					font-size: 18px;
+				}
+			}
+		}
+	}
 }
