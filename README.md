@@ -21,6 +21,7 @@ JS:
 - [ ]dark mode
 - [ ]portfolio gallery
 - [ ]sending contact form
+- [ ]arrow back to header
 
 Animate:
 
