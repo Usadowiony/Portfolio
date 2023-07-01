@@ -18,7 +18,7 @@ JS:
 - [ ]go to section
 - [ ]dark mode
 - [ ]portfolio gallery
-- [ ]sensing contact form
+- [ ]sending contact form
 
 Animate:
 
