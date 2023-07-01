@@ -492,20 +492,31 @@
 			}
 		}
 	}
-	@media (min-width: 1500px){
+	@media (min-width: 1500px) {
 		column-gap: 4vw;
+		&__photo {
+			width: clamp(420px, 80%, 540px);
+		}
 		&__typography {
 			&-h3 {
-				font-size: calc(0.4vw + 0.6rem);
+				font-size: calc(0.55vw + 0.7rem);
 				letter-spacing: 1px;
 			}
 			&-h2 {
-				font-size: calc(0.9vw + 0.6rem);
-				line-height: 121%;
 				margin-top: 10px;
+				font-size: calc(1vw + 0.6rem);
+				line-height: 121%;
+				font-weight: 200;
+				span {
+					color: $black;
+					font-weight: 300;
+				}
+				@media (min-width: 1800px) {
+					padding-right: 10%;
+				}
 			}
 			&-h1 {
-				font-size: calc(1.3vw + 1.5rem);
+				font-size: calc(1.4vw + 1.5rem);
 			}
 		}
 		&__buttons {
@@ -513,27 +524,26 @@
 			column-gap: 1vw;
 
 			.button {
-				// font-size: clamp(16px, 1vw + 0.25rem, 20px);
-				font-size: 15px;
+				font-size: clamp(14px, 0.8vw + 0.2rem, 19px);
 			}
 			&-social-media {
 				gap: 1vw;
 			}
 			&-linkedin {
-				font-size: 34px;
-				margin-left: 8px;
+				font-size: 40px;
 			}
 			&-github {
-				font-size: 34px;
+				font-size: 40px;
 			}
 			&-scroll {
 				left: 16%;
+				bottom: -70%;
 				&-svg {
-					width: 50px;
+					width: clamp(50px, 3.2vw, 65px);
 				}
 				&-p {
-					margin-left: 12px;
-					font-size: 18px;
+					margin-left: 13px;
+					font-size: clamp(18px, 0.7vw + 0.4rem, 21px);
 				}
 			}
 		}
