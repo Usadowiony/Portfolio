@@ -548,4 +548,30 @@
 			}
 		}
 	}
+	@media (min-width: 1921px) {
+		&__typography {
+			&-h2 {
+				@media (min-width: 2000px) {
+					padding-right: 2%;
+				}
+			}
+		}
+		&__buttons {
+			grid-template-columns: 0.6fr 0.6fr auto 3vw;
+			column-gap: 0.7vw;
+			.button {
+				font-size: clamp(16px, 0.7vw + 0.25rem, 18px);
+			}
+			&-linkedin {
+				font-size: 42px;
+			}
+			&-github {
+				font-size: 42px;
+			}
+			&-scroll {
+				left: 18%;
+				bottom: -65%;
+			}
+		}
+	}
 }
