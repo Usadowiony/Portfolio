@@ -171,7 +171,19 @@
 	@media (min-width: 1500px) {
 		&__logo {
 			border: 2.5px solid $black;
-			font-size: 11px;
+			font-size: 13px;
+		}
+		&__options {
+			column-gap: 20px;
+			font-size: 20px;
+			a {
+				font-size: 20px;
+			}
+		}
+		&__language {
+			&-p {
+				font-size: 16px;
+			}
 		}
 	}
 }
