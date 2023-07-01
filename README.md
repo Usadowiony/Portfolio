@@ -6,7 +6,7 @@
 
 Build general structure:
 
-- [ ]header
+- [x]header
 - [ ]portfolio
 - [ ]about me
 - [ ]skills
