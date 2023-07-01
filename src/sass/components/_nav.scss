@@ -176,6 +176,9 @@
 		&__options {
 			column-gap: 20px;
 			font-size: 20px;
+			&-ul {
+				margin-right: 2vw;
+			}
 			a {
 				font-size: 20px;
 			}
@@ -183,6 +186,25 @@
 		&__language {
 			&-p {
 				font-size: 16px;
+			}
+		}
+	}
+	@media (min-width: 2049px) {
+		height: 75px;
+		&__logo {
+			border: 3px solid $black;
+			font-size: 15px;
+		}
+		&__options {
+			column-gap: 30px;
+			font-size: 27px;
+			a {
+				font-size: 25px;
+			}
+		}
+		&__language {
+			&-p {
+				font-size: 20px;
 			}
 		}
 	}
