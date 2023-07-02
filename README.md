@@ -15,9 +15,8 @@ Build general structure:
 
 JS:
 
-- [ ]navigation:
-- [ ]mobile show
-- [ ]go to section
+- [ ]mobile show nav panel
+- [ ]nav go to section on click
 - [ ]dark mode
 - [ ]portfolio gallery
 - [ ]sending contact form
@@ -30,3 +29,9 @@ Animate:
 - [ ]skills hover
 - [ ]contact inputs
 - [ ]gsap
+
+Last steps:
+
+- [ ] Seo
+- [ ] Speed optimization
+- [ ] custom domein setup
