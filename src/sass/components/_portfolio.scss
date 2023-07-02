@@ -1,3 +1,4 @@
+//mobile first 320px portrait
 .portfolio {
 	display: grid;
 	grid-template-columns: 1fr;
@@ -9,14 +10,13 @@
 		display: flex;
 		flex-direction: column;
 		text-align: center;
-
 		&-h2 {
 			font-weight: 300;
-			font-size: 18px;
+			font-size: 15px;
 		}
 		&-h1 {
 			font-family: $poppins;
-			font-size: 50px;
+			font-size: 42px;
 			font-weight: 600;
 			text-transform: uppercase;
 			line-height: 100%;
@@ -25,7 +25,7 @@
 	&__gallery {
 		display: grid;
 		grid-template-rows: 1fr 30px;
-		grid-template-columns: auto 1fr auto;
+		grid-template-columns: auto 220px auto;
 		//////
 		position: relative;
 
@@ -51,14 +51,14 @@
 			}
 			&-h1 {
 				font-family: $poppins;
-				font-size: 20px;
+				font-size: 18px;
 				font-weight: 600;
 				text-transform: uppercase;
 				//////
 				margin-bottom: 3px;
 			}
 			&-p {
-				font-size: 12px;
+				font-size: 13px;
 				color: $dark;
 			}
 		}
@@ -71,7 +71,7 @@
 			grid-row: 1;
 			&-img {
 				width: clamp(30px, 80%, 50px);
-				transform: rotate(180deg);
+				transform: rotate(180deg) translateX(8px);
 				//////
 				cursor: pointer;
 			}
@@ -85,6 +85,8 @@
 			grid-row: 1;
 			&-img {
 				width: clamp(30px, 80%, 50px);
+				transform: translateX(8px);
+				//////
 				cursor: pointer;
 			}
 		}
