@@ -41,12 +41,15 @@
 				width: 100%;
 				min-height: 100px;
 				margin-top: 2vh;
+				padding: 0 14px;
+				text-align: center;
 			}
 			&-h1 {
 				font-family: $poppins;
 				font-weight: 600;
-				font-size: 18px;
+				font-size: 20px;
 				text-transform: uppercase;
+				margin-bottom: 3px;
 			}
 			&-p {
 				font-size: 12px;
@@ -60,6 +63,11 @@
 			grid-column: 1;
 			grid-row: 1;
 			cursor: pointer;
+			&-img {
+				transform: rotate(180deg);
+				scale: 1.2;
+				margin-right: 4vw;
+			}
 		}
 		&-arrow-right {
 			display: flex;
@@ -68,6 +76,10 @@
 			grid-column: 3;
 			grid-row: 1;
 			cursor: pointer;
+			&-img {
+				scale: 1.2;
+				margin-left: 4vw;
+			}
 		}
 		&-dots {
 			display: flex;
@@ -93,6 +105,12 @@
 			align-items: center;
 			justify-content: center;
 			column-gap: 2vw;
+			.button {
+				font-size: 11px;
+				&--empty {
+					border: 1.5px solid $black;
+				}
+			}
 		}
 	}
 }
