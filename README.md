@@ -6,29 +6,29 @@
 
 Build general structure:
 
-- [x]header
-- [ ]portfolio
-- [ ]about me
-- [ ]skills
-- [ ]contact
-- [ ]nav
+- [x] header
+- [ ] portfolio
+- [ ] about me
+- [ ] skills
+- [ ] contact
+- [ ] nav
 
 JS:
 
-- [ ]mobile show nav panel
-- [ ]nav go to section on click
-- [ ]dark mode
-- [ ]portfolio gallery
-- [ ]sending contact form
-- [ ]arrow back to header
+- [ ] mobile show nav panel
+- [ ] nav go to section on click
+- [ ] dark mode
+- [ ] portfolio gallery
+- [ ] sending contact form
+- [ ] arrow back to header
 
 Animate:
 
-- [ ]buttons (on click, hover)
-- [ ]nav current section
-- [ ]skills hover
-- [ ]contact inputs
-- [ ]gsap
+- [ ] buttons (on click, hover)
+- [ ] nav current section
+- [ ] skills hover
+- [ ] contact inputs
+- [ ] gsap
 
 Last steps:
 
