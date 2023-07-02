@@ -62,10 +62,10 @@
 			align-items: center;
 			grid-column: 1;
 			grid-row: 1;
-			cursor: pointer;
 			&-img {
 				transform: rotate(180deg);
 				width: clamp(30px, 80%, 50px);
+				cursor: pointer;
 			}
 		}
 		&-arrow-right {
@@ -74,9 +74,9 @@
 			align-items: center;
 			grid-column: 3;
 			grid-row: 1;
-			cursor: pointer;
 			&-img {
 				width: clamp(30px, 80%, 50px);
+				cursor: pointer;
 			}
 		}
 		&-dots {
