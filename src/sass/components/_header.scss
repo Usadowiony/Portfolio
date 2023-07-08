@@ -524,7 +524,7 @@
 			}
 			&-h2 {
 				margin-top: 10px;
-				font-size: calc(1vw + 0.6rem);
+				font-size: clamp(24px, 1vw + 0.6rem, 27px);
 				line-height: 121%;
 				font-weight: 200;
 				span {
