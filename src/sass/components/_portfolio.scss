@@ -315,4 +315,31 @@
 			}
 		}
 	}
+	@media (min-height: 480px) and (orientation: landscape) {
+		row-gap: 12vh;
+		&__gallery {
+			row-gap: 5vh;
+			&-content {
+				grid-template-rows: 1fr 40px;
+				row-gap: 5vh;
+				&-h1 {
+					font-size: 24px;
+				}
+				&-p {
+					padding-right: 1px;
+					font-size: 15px;
+					line-height: 130%;
+				}
+			}
+			&-buttons {
+				column-gap: 3vw;
+				.button {
+					font-size: 14px;
+					&--empty {
+						border: 2px solid $black;
+					}
+				}
+			}
+		}
+	}
 }
