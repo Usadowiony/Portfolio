@@ -342,4 +342,29 @@
 			}
 		}
 	}
+	@media (min-width: 480px) and (orientation: portrait) {
+		row-gap: 10vh;
+		&__gallery {
+			grid-template-columns: auto 280px auto;
+			&-content {
+				&-text-area {
+					margin-top: 3vh;
+					padding: 0 9px;
+				}
+				&-h1 {
+					font-size: 24px;
+				}
+				&-p {
+					font-size: 16px;
+				}
+			}
+			&-buttons {
+				padding: 3vh 0;
+				.button {
+					width: 70%;
+					font-size: 13px;
+				}
+			}
+		}
+	}
 }
