@@ -229,4 +229,25 @@
 			}
 		}
 	}
+	@media (min-height: 360px) and (orientation: landscape) {
+		&__gallery {
+			row-gap: 2vh;
+			&-content {
+				grid-template-rows: 1fr 34px;
+				row-gap: 4vh;
+				&-h1 {
+					font-size: 19px;
+				}
+				&-p {
+					font-size: 13px;
+				}
+			}
+			&-buttons {
+				column-gap: 2.5vw;
+				.button {
+					font-size: 12px;
+				}
+			}
+		}
+	}
 }
