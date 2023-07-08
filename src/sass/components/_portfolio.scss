@@ -250,4 +250,36 @@
 			}
 		}
 	}
+	@media (min-width: 410px) and (orientation: portrait) {
+		row-gap: 8vh;
+		&__header {
+			&-h2 {
+				font-size: 18px;
+			}
+			&-h1 {
+				font-size: 50px;
+			}
+		}
+		&__gallery {
+			grid-template-columns: auto 260px auto;
+			&-content {
+				&-text-area {
+					padding: 0 12px;
+					text-align: left;
+				}
+				&-h1 {
+					font-size: 22px;
+				}
+				&-p {
+					font-size: 15px;
+				}
+			}
+			&-buttons {
+				.button {
+					width: 100%;
+					font-size: 12.5px;
+				}
+			}
+		}
+	}
 }
