@@ -28,10 +28,16 @@ function Header() {
 						icon='fa-solid fa-file-lines'
 					/>
 					<div className='header__buttons-social-media'>
-						<a href='#' className='header__buttons-linkedin'>
+						<a
+							href='https://www.linkedin.com/in/wojciech-pietrzak-238a25262/'
+							className='header__buttons-linkedin'
+							target='_blank'>
 							<i class='fa-brands fa-linkedin'></i>
 						</a>
-						<a href='#' className='header__buttons-github'>
+						<a
+							href='https://github.com/Usadowiony'
+							className='header__buttons-github'
+							target='_blank'>
 							<i className='fa-brands fa-github'></i>
 						</a>
 					</div>
