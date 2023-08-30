@@ -9,11 +9,11 @@ function Header() {
 			<div className='header__content'>
 				<div className='header__typography'>
 					<h3 className='header__typography-h3'>👋 Cześć, nazywam się</h3>
-					<h1 class='header__typography-h1'>Wojciech Pietrzak</h1>
+					<h1 className='header__typography-h1'>Wojciech Pietrzak</h1>
 					<h2 className='header__typography-h2'>
 						I jestem <span>front-end developerem</span>, z pasją zarówno do
-						<span>kodowania</span>, jak i
-						<span>projektowania stron internetowych</span>.
+						<span> kodowania</span>, jak i
+						<span> projektowania stron internetowych</span>.
 					</h2>
 				</div>
 				<div className='header__buttons'>
