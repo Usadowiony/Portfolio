@@ -6,8 +6,8 @@
 
 Build general structure:
 
-- [x] header
-- [ ] portfolio
+- [ ] header (media for large screen and orientation portrait)
+- [ ] portfolio (media for large screen portrait  orientation)
 - [ ] about me
 - [ ] skills
 - [ ] contact
