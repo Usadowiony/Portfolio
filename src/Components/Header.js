@@ -1,5 +1,5 @@
 import mobileScroll from "../img/svg/mobile_scroll.svg";
-import Button from "../Components/Button";
+import Button from "./Button";
 function Header() {
 	return (
 		<header className='container header'>
