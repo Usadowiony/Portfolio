@@ -5,13 +5,13 @@ import Portfolio from "./Components/Portfolio";
 
 function App() {
 	return (
-		<div>
+		<>
 			<Nav />
 			<Header />
 			<main className='container'>
 				<Portfolio />
 			</main>
-		</div>
+		</>
 	);
 }
 
