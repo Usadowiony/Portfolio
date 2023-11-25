@@ -1,7 +1,7 @@
 import arrow from "../img/png/icons8-arrow-ios-16-glyph-96.png";
 import Button from "./Button";
 
-function Portfolio() {
+export default function Portfolio() {
 	return (
 		<section className='portfolio'>
 			<div className='portfolio__header'>
@@ -53,5 +53,3 @@ function Portfolio() {
 		</section>
 	);
 }
-
-export default Portfolio;
