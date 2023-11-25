@@ -1,4 +1,4 @@
-function Nav() {
+export default function Nav() {
 	return (
 		<nav className='container nav'>
 			<div className='nav__logo'>
@@ -30,4 +30,3 @@ function Nav() {
 		</nav>
 	);
 }
-export default Nav;
