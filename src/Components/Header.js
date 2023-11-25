@@ -1,6 +1,6 @@
 import mobileScroll from "../img/svg/mobile_scroll.svg";
 import Button from "./Button";
-function Header() {
+export default function Header() {
 	return (
 		<header className='container header'>
 			<div className='header__photo'>
@@ -54,4 +54,3 @@ function Header() {
 		</header>
 	);
 }
-export default Header;
